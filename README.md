@@ -88,7 +88,3 @@ mvn test
 ## Contribuições
 
 Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias e correções.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.

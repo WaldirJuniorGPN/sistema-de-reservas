@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: restaurante.app
+
+  profiles:
+    active: "local"
+
+  datasource:
+    url: jdbc:mysql://${DB_HOST}/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQLDialect
+      ddl-auto: update
